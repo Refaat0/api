@@ -19,7 +19,7 @@ const { getAllLogs, getLogById, createLog, updateLog, deleteLog } = require('../
 router.get('/api/logs', getAllLogs);
 router.get('/api/logs/:id', sanitizeId, getLogById);
 router.post('/api/logs', sanitizeBody(logSchema), createLog);
-router.put('/api/logs/:id', sanitizeId, updateLog);
+router.put('/api/logs/:id', sanitizeBody(logSchema), sanitizeId, updateLog);
 router.delete('/api/logs/:id', sanitizeId, deleteLog);
 
 
