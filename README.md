@@ -1,8 +1,8 @@
 <h1>api</h1>
 
 **about**  
-author: Refaat 🌻  
-a simple api written in node & express using a monogdb database  
+- written by Refaat 🌻  
+- this project is a simple api written in node & express using a monogdb database  
 
 **prerequisites**
 1. node.js must be installed
