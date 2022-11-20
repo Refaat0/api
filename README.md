@@ -1,5 +1,5 @@
 # api-v1 #
-**Author:** Refaat 🌻
+**author:** Refaat 🌻
 
 ### about  ###  
 This repository contains a simple CRUD, web api that is written in node.js, & express.js, using mongodb as a database.  
