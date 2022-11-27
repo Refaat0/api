@@ -2,7 +2,7 @@
 **author:** Refaat 🌻
 
 ### about  ###  
-This repository contains a simple CRUD, web api that is written in node.js, & express.js, using mongodb as a database.  
+This repository contains a simple CRUD, web api that is written in node.js, & express.js, using mongo as a database.  
   
 ### prerequisites ###
 1. node.js must be installed
